@@ -4,6 +4,7 @@ package main
 import "fmt"
 
 // package level variables
+// dont raise an error
 var pkgLvlVar int
 
 // program always starts with main

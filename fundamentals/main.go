@@ -4,5 +4,7 @@ func main() {
 	// Functions()
 	// Pointers()
 	// Vars()
-	Struct()
+	// Struct()
+	// Maps()
+	Slice()
 }
