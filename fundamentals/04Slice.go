@@ -29,8 +29,9 @@ func Slice() {
 	sort.Slice(myStudents, func(i, j int) bool {
 		if myStudents[i].FirstName > myStudents[j].FirstName {
 			return true
+		} else {
+			return false
 		}
-		return false
 	})
 
 	log.Println(myStudents)
